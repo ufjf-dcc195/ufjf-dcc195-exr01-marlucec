@@ -3,8 +3,8 @@ var router = require("./router");
 var requestHandlers = require("./handlers");
 
 var handlers = {};
-handlers["/"] = requestHandlers.impares;
-handlers["/definaImpares"] = requestHandlers.definaImpares;
+handlers["/"] = requestHandlers.oculto;
+handlers["/oculto"] = requestHandlers.oculto;
 handlers["/index.html"] = requestHandlers.impares;
 handlers["/notfound"] = requestHandlers.naoEncontrado;
 
